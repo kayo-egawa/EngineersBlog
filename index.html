@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>FFRI Engineers&#39; Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="FFRI Engineers&#39; Blog">
+<meta property="og:url" content="https://github.ffri.local/pages/ko-nakagawa/TechBlogSample/index.html">
+<meta property="og:site_name" content="FFRI Engineers&#39; Blog">
+<meta property="og:locale" content="default">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="FFRI Engineers&#39; Blog">
+  
+    <link rel="alternate" href="/pages/ko-nakagawa/TechBlogSample/atom.xml" title="FFRI Engineers&#39; Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/pages/ko-nakagawa/TechBlogSample/images/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/pages/ko-nakagawa/TechBlogSample/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/pages/ko-nakagawa/TechBlogSample/" id="logo">FFRI Engineers&#39; Blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/pages/ko-nakagawa/TechBlogSample/">Home</a>
+        
+          <a class="main-nav-link" href="/pages/ko-nakagawa/TechBlogSample/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/pages/ko-nakagawa/TechBlogSample/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://github.ffri.local/pages/ko-nakagawa/TechBlogSample"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-ffri-dataset-2018" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/pages/ko-nakagawa/TechBlogSample/2018/07/30/ffri-dataset-2018/" class="article-date">
+  <time datetime="2018-07-30T06:51:02.000Z" itemprop="datePublished">2018-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/pages/ko-nakagawa/TechBlogSample/2018/07/30/ffri-dataset-2018/">FFRI Dataset 2018 の紹介 1/2</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>FFRI リサーチエンジニアの中川です。弊社エンジニアブログの記念すべき第1回目の記事を執筆することになりました。よろしくお願いします。</p>
+<p>記事の内容に入る前に、新しく始めたこのエンジニアブログについて簡単に紹介したいと思います。<br>弊社ではすでに、<a href="https://www.ffri.jp/blog/index.htm" target="_blank" rel="noopener">FFRI 公式ブログ</a>を公開しており、弊社製品の防御実績の紹介、主点情報などを掲載しています。本エンジニアブログは技術者向けに次のような情報を発信することを意図して開設されたブログとなります。</p>
+<ul>
+<li>注目するべき脆弱性の情報、PoCの紹介。</li>
+<li>弊社エンジニアが業務において利用しているツールの紹介。</li>
+<li>弊社が外部向けに公開したツールの紹介。</li>
+<li>サイバーセキュリティ関連のカンファレンスのサーベイレポート。</li>
+</ul>
+<p>第1回目はMWS 2018プレミーティングで公開したFFRI Dataset 2018の紹介をしていきたいと思います。</p>
+<h2 id="FFRI-Datasetについて"><a href="#FFRI-Datasetについて" class="headerlink" title="FFRI Datasetについて"></a>FFRI Datasetについて</h2><p>弊社では2013年から毎年、情報処理学会コンピュータセキュリティ研究会マルウェア対策人材育成ワークショップ (MWS) において、研究者向けにデータ・セットを配布しています。このデータ・セットには弊社が独自に収集したマルウェアの解析ログが含まれており、主に機械学習での利用を意図して、こうしたデータ・セットの配布を行っております。</p>
+<p>主に次のような理由からこうしたデータ・セットを毎年配布しています。</p>
+<ul>
+<li>データ・セットを利用した共同研究を行うため。</li>
+<li>弊社の知名度の向上のため。</li>
+</ul>
+<h2 id="FFRI-Dataset-2017まで"><a href="#FFRI-Dataset-2017まで" class="headerlink" title="FFRI Dataset 2017まで"></a>FFRI Dataset 2017まで</h2><p>2013年から2017年まで、<a href="https://cuckoosandbox.org/" target="_blank" rel="noopener">Cuckoo Sandbox</a>で実行したマルウェアの動的解析ログを提供していました。下にデータセットの一部を示します。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;families&quot;: [],</span><br><span class="line">    &quot;description&quot;: &quot;Allocates read-write-execute memory (usually to unpack itself)&quot;,</span><br><span class="line">    &quot;name&quot;: &quot;allocates_rwx&quot;,</span><br><span class="line">    &quot;markcount&quot;: 1,</span><br><span class="line">    &quot;references&quot;: [],</span><br><span class="line">    &quot;marks&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;pid&quot;: 3568,</span><br><span class="line">            &quot;cid&quot;: 251,</span><br><span class="line">            &quot;call&quot;: &#123;</span><br><span class="line">                &quot;category&quot;: &quot;process&quot;,</span><br><span class="line">                &quot;status&quot;: 1,</span><br><span class="line">                &quot;stacktrace&quot;: [],</span><br><span class="line">                &quot;api&quot;: &quot;NtProtectVirtualMemory&quot;,</span><br><span class="line">                &quot;return_value&quot;: 0,</span><br><span class="line">                &quot;arguments&quot;: &#123;</span><br><span class="line">                    &quot;base_address&quot;: &quot;0x6c161000&quot;,</span><br><span class="line">                    &quot;length&quot;: 4096,</span><br><span class="line">                    &quot;protection&quot;: 64,</span><br><span class="line">                    &quot;process_identifier&quot;: 3568,</span><br><span class="line">                    &quot;process_handle&quot;: &quot;0xffffffff&quot;</span><br><span class="line">                &#125;,</span><br><span class="line">                &quot;time&quot;: 1494420463.232368,</span><br><span class="line">                &quot;tid&quot;: 3572,</span><br><span class="line">                &quot;flags&quot;: &#123;</span><br><span class="line">                    &quot;protection&quot;: &quot;PAGE_EXECUTE_READWRITE&quot;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            &quot;type&quot;: &quot;call&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ],</span><br><span class="line">    &quot;severity&quot;: 2</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+<p>FFRI Dataset 2017のデータの一部。</p>
+<p>動的解析のログとして、実行時のAPIのコール、ファイルハンドル、プロセスidの情報などがJSONファイルとして出力されています。<br>毎年3000検体、多いときで8000検体ほどの動的解析ログを提供していましたが、次のような問題点がありました。</p>
+<ul>
+<li><p>提供できる検体数の限界<br>動的解析のログを取得するのに1検体で180秒程度かかり、提供する検体数を増やすことに限界がありました。例えば50万検体の動的解析ログ情報を取得しようとした場合、1台のマシンで動的解析ログを収集すると約1000日かかることになります。</p>
+</li>
+<li><p>提供される情報の可読性<br>静的情報と比較して動的情報は可読性が低く、利用に際しての障壁がありました。</p>
+</li>
+<li><p>マルウェアの解析ログのみの提供<br>マルウェアの解析ログのみの提供となっており、良性ファイルの情報を提供していませんでした。</p>
+</li>
+</ul>
+<p>公開当初は動的解析ログを用い、亜種を判別するのに利用される事例などもありましたが、上に挙げた問題点もあり、年々利用事例が減少しておりました。<br>こうした問題点を踏まえ、本年度新たにリリースしたのがFFRI Dataset 2018です。</p>
+<h2 id="FFRI-Dataset-2018について"><a href="#FFRI-Dataset-2018について" class="headerlink" title="FFRI Dataset 2018について"></a>FFRI Dataset 2018について</h2><p>FFRI Dataset 2018は2017までと違い、次のような特徴を持ったデータセットとなっています。</p>
+<ul>
+<li>動的解析ログではなく、ファイルの表層情報(各種ファイルハッシュ値、ヘッダーダンプなど)を提供。</li>
+<li>十分なデータ数(マルウェア: <em>290000</em>件、良性ファイル: <em>210000</em>件)を提供。</li>
+<li>マルウェアだけでなく、良性ファイルも提供。</li>
+<li>データセット作成に用いたマルウェアとしては、弊社がVirusTotalなどから独自に入手したものを利用。</li>
+<li>データセット作成に用いた良性ファイルとしては、弊社がVectorで配布されているフリーウェアなどを利用。</li>
+</ul>
+<p>具体的にどういった内容なのか、見たほうがわかりやすいと思います。以下にデータセットの内容の一部を示します。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;date&quot;,&quot;md5&quot;,&quot;sha1&quot;,&quot;sha256&quot;,&quot;ssdeep&quot;,&quot;imphash&quot;,&quot;impfuzzy&quot;,&quot;Totalhash&quot;,&quot;AnyMaster&quot;,&quot;AnyMaster_v1.0.1&quot;,&quot;EndGame&quot;,&quot;Crits&quot;,&quot;peHashNG&quot;,&quot;Platform&quot;,&quot;GUI Program&quot;,&quot;Console Program&quot;,&quot;DLL&quot;,&quot;Packed&quot;,&quot;Anti-Debug&quot;,&quot;mutex&quot;,&quot;contains base64&quot;,&quot;AntiDebugMethod&quot;,&quot;PEiD&quot;,&quot;TrID&quot;</span><br><span class="line">&quot;20171211&quot;,&quot;9324c53e63ab2a964a0acfce58aea380&quot;,&quot;1bc7ac68993ac2c631de114f8143427ab576f733&quot;,&quot;eed327c8c212a6770cca4ceddc76f4553bfd5a737960bad4780b1d1925812727&quot;,&quot;12288:dKcd8fWzsUIz7GpvhjbA3Ny/aYrnj9jEsX2utrxAG7ENYLU+fIT:dKcCfWzqz7Gp5MdQBtrxzY4fIT&quot;,&quot;d48847f05c5fd88a678b7af8d736f338&quot;,&quot;12:oZG0Oov81VjLz01BEU/m4jv3oA+SQSLCnQ6iA5kXtAhS:YlOovk1Lz0vEU/1T3F+SQSLCnQnAKdAE&quot;,&quot;39e824f389c0c799338dae982b5f5cddc70d6d4a&quot;,&quot;d568373b72e49cc695d6c889a2484676962c7b3b&quot;,&quot;47b87614d3bba15f990c6ba7616dd198c2d5cae8&quot;,&quot;80909742a51a0eb3c23250932d6d6f6e&quot;,&quot;0f3a3d35f76bd0ef3edfd0ff9babefd96fe447f5&quot;,&quot;98682512ab52900b1e3be694040982d183ca0eef48544b0e83207efed1ca2e2e&quot;,&quot;32 bit&quot;,&quot;yes&quot;,&quot;no (yes)&quot;,&quot;no&quot;,&quot;yes&quot;,&quot;yes&quot;,&quot;no&quot;,&quot;yes&quot;,&quot;&quot;,&quot;MASMTASM|TASM_MASM|TASM_MASM_additional|PE_Diminisher_v01_additional&quot;,&quot;37.5% (.EXE) InstallShield setup (43053/19/16)\n27.2% (.EXE) Win32 Executable MS Visual C++ (generic) (31206/45/13)\n24.0% (.EXE) Win64 Executable (generic) (27625/18/4)\n3.9% (.EXE) Win32 Executable (generic) (4508/7/1)\n1.9% (.EXE) Win32 Executable MS Visual FoxPro 7 (2249/79)&quot;</span><br></pre></td></tr></table></figure>
+<p>FFRI Dataset 2018のデータの一部。</p>
+<p>データセットはCSVファイルファイルとして提供しています。データフィールドとして、マルウェアのクラスタリングに有用とされている各種ハッシュ値、GUI Programであるのか、アンチデバッグ技法が使われているのかなどの情報を掲載しております。以下にデータフィールドの内容と取得に用いたツールについて簡単にまとめています。</p>
+<p>各データフィールド:</p>
+<ul>
+<li>date: ファイルの入手時期 (マルウェアにのみ記載)</li>
+<li>md5, sha1, sha256: 暗号学的ハッシュ関数によるファイルのハッシュ値</li>
+<li>ssdeep: ファジーハッシュ関数によるファイルのハッシュ値</li>
+<li>imphash, impfuzzy: IATの情報に基づいて計算されるハッシュ値</li>
+<li>Totalhash, AnyMaster, AnyMaster_v1.0.1, EndGame, Crits, peHashNG: PEのセクション情報、エントロピーの情報などに基づいて計算されるハッシュ値</li>
+<li>Platform: アーキテクチャ (32bitか64bitか)</li>
+<li>GUI Program: GUIプログラムか否か</li>
+<li>Console Program: コンソールプログラムか否か</li>
+<li>DLL: DLLか否か</li>
+<li>Packed: パッカーがしようされているか否か</li>
+<li>Anti-Debug: アンチデバッグ技法が利用されているか否か</li>
+<li>mutex: ミューテックスが利用されているか否か</li>
+<li>contains base64: base64が含まれているか否か</li>
+<li>AntiDebugMethod: アンチデバッグ技法の名称</li>
+<li>PEiD: <a href="https://github.com/K-atc/PEiD" target="_blank" rel="noopener">PEiD</a>のシグニチャ名</li>
+<li>TrID: <a href="http://mark0.net/soft-trid-e.html" target="_blank" rel="noopener">TriD</a>によるファイル形式に関する情報</li>
+</ul>
+<p>取得に用いられたツール:</p>
+<ul>
+<li>ssdeep: <a href="https://github.com/ssdeep-project/ssdeep" target="_blank" rel="noopener">https://github.com/ssdeep-project/ssdeep</a></li>
+<li>imphash: <a href="https://github.com/erocarrera/pefile" target="_blank" rel="noopener">https://github.com/erocarrera/pefile</a></li>
+<li>impfuzzy: <a href="https://github.com/JPCERTCC/impfuzzy" target="_blank" rel="noopener">https://github.com/JPCERTCC/impfuzzy</a></li>
+<li>Totalhash, AnyMaster, AnyMaster_v1.0.1, EndGame, Crits, peHashNG: <a href="https://github.com/knowmalware/pehash" target="_blank" rel="noopener">https://github.com/knowmalware/pehash</a></li>
+<li>Platform, GUI Program, Console Program, DLL, Packed, Anti-Debug, mutex, contains base64, AntiDebugMethod: <a href="https://github.com/K-atc/PEiD" target="_blank" rel="noopener">https://github.com/K-atc/PEiD</a></li>
+</ul>
+<p>また、各種ハッシュ値の情報に加え、<a href="https://github.com/erocarrera/pefile" target="_blank" rel="noopener">pefile</a>による各ファイルのPEヘッダーダンプの情報も提供しています。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">----------Parsing Warnings----------</span><br><span class="line"></span><br><span class="line">Suspicious flags set for section 0. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.</span><br><span class="line"></span><br><span class="line">Suspicious flags set for section 1. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.</span><br><span class="line"></span><br><span class="line">Imported symbols contain entries typical of packed executables.</span><br><span class="line"></span><br><span class="line">----------DOS_HEADER----------</span><br><span class="line"></span><br><span class="line">[IMAGE_DOS_HEADER]</span><br><span class="line">0x0        0x0   e_magic:                       0x5A4D</span><br><span class="line">0x2        0x2   e_cblp:                        0x50</span><br><span class="line">0x4        0x4   e_cp:                          0x2</span><br><span class="line">0x6        0x6   e_crlc:                        0x0</span><br><span class="line">0x8        0x8   e_cparhdr:                     0x4</span><br><span class="line">0xA        0xA   e_minalloc:                    0xF</span><br><span class="line">0xC        0xC   e_maxalloc:                    0xFFFF</span><br><span class="line">0xE        0xE   e_ss:                          0x0</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>現状ではヘッダーダンプをテキスト形式で配布しており、少しパースが難しくなっています。JSONやXML形式での配布を現在検討中です。</p>
+<h2 id="データ・セットの利用方法"><a href="#データ・セットの利用方法" class="headerlink" title="データ・セットの利用方法"></a>データ・セットの利用方法</h2><p>ここまで読んで、</p>
+<p>「実際にFFRI Dataset 2018を使って、機械学習モデルとか作れないの？モデルを作って評価していないの？」</p>
+<p>と疑問に思われた方は多いと思います。答えは「できます！」です。<br>実は先日の弊社新人研修にて、FFRI Dataset 2018を用い、マルウェアを分類する機械学習モデルを作成するという課題に(私も含め)新人が知恵を絞りました。最終的に、アンサンブル学習を用いTPR 75% FPR 0.03%を達成するモデルが作成され、表層情報を特徴量としてうまく機械学習を適用することができることがわかりました！！<br>次回は、その機械学習モデルの詳細について記事を公開する予定です。</p>
+<h2 id="共同研究募集"><a href="#共同研究募集" class="headerlink" title="共同研究募集"></a>共同研究募集</h2><p>弊社ではFFRI Dataset 2018を利用した共同研究を絶賛募集中です。興味のある方はお問い合わせください。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://github.ffri.local/pages/ko-nakagawa/TechBlogSample/2018/07/30/ffri-dataset-2018/" data-id="cjkuxh33t0000xk9kpakki0ch" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/ko-nakagawa/TechBlogSample/tags/MWS/">MWS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/ko-nakagawa/TechBlogSample/tags/マルウェア研究用データセット/">マルウェア研究用データセット</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/pages/ko-nakagawa/TechBlogSample/tags/MWS/">MWS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/pages/ko-nakagawa/TechBlogSample/tags/マルウェア研究用データセット/">マルウェア研究用データセット</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/pages/ko-nakagawa/TechBlogSample/archives/2018/07/">July 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/pages/ko-nakagawa/TechBlogSample/2018/07/30/ffri-dataset-2018/">FFRI Dataset 2018 の紹介 1/2</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    <div class="widget-wrap">
+    <h3 class="widget-title">recruiting</h3>
+    <div class="widget">
+        <a href="https://www.ffri.jp/company/recruit/index.htm" rel="noopener" target="_blank"><img src="/pages/ko-nakagawa/TechBlogSample/images/logo.png" alt="採用情報"></a>
+    </div>
+</div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 FFRI, Inc.<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/pages/ko-nakagawa/TechBlogSample/" class="mobile-nav-link">Home</a>
+  
+    <a href="/pages/ko-nakagawa/TechBlogSample/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/pages/ko-nakagawa/TechBlogSample/fancybox/jquery.fancybox.css">
+  <script src="/pages/ko-nakagawa/TechBlogSample/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/pages/ko-nakagawa/TechBlogSample/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>

@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title>FFRI Dataset 2018 の紹介 1/2</title>
+      <title>テスト記事の投稿について</title>
       <link href="/EngineersBlog/2018/07/30/ffri-dataset-2018/"/>
       <url>/EngineersBlog/2018/07/30/ffri-dataset-2018/</url>
       <content type="html"><![CDATA[<h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>テスト記事投稿。本文のフォントの大きさがどの程度になっているのかを確認するため。</p><h2 id="段落1"><a href="#段落1" class="headerlink" title="段落1"></a>段落1</h2><h3 id="段落2"><a href="#段落2" class="headerlink" title="段落2"></a>段落2</h3><ul><li>シンタックスハイライトが有効になるのかを確認</li><li>python</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">   print(<span class="string">"Hello World"</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure><ul><li>Rust</li></ul><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fn</span> <span class="title">main</span></span>() &#123;</span><br><span class="line">    <span class="built_in">println!</span>(<span class="string">"Hello World"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>C++</li></ul><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World"</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="工事中"><a href="#工事中" class="headerlink" title="工事中"></a>工事中</h2>]]></content>
@@ -11,9 +11,11 @@
       
         <tags>
             
-            <tag> マルウェア研究用データセット </tag>
+            <tag> Rust </tag>
             
-            <tag> MWS </tag>
+            <tag> C++ </tag>
+            
+            <tag> python </tag>
             
         </tags>
       
